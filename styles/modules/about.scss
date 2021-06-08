@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.about {
+  background: $greysmoke;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+  &__container {
+    height: 218px;
+    width: 485px;
+    margin-top: 120px;
+    margin-bottom: 107px;
+  }
+
+  &__title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    
+  }
+
+  &__item {
+    margin-top: 25px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    
+  }
+}

@@ -1,0 +1,29 @@
+@import "../variables.scss";
+
+.portfolio {
+  background: $greysmoke;
+  
+  &__title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  &__block_1{
+    height: 510px;
+    
+  }
+  &__homepage{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 99px;
+  }
+  &__block_2{
+    height: 522px;
+    
+  }
+}
